@@ -1,9 +1,9 @@
 Clicker<br><br>
 <app-click-counter #clickCounter ></app-click-counter>
 <br>
-<app-click [clickCounter]="clickCounter" >Click A</app-click>
+<app-click [clickCounter]="clickCounter" [interval]=2000 intervalOn=true>Click A</app-click>
 <br>
-<app-click [clickCounter]="clickCounter" >Click B</app-click>
+<app-click [clickCounter]="clickCounter" [interval]=1500>Click B</app-click>
 <br>
-<app-click [clickCounter]="clickCounter" >Click C</app-click>
+<app-click [clickCounter]="clickCounter" [interval]=1000>Click C</app-click>
 
